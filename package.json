@@ -1,7 +1,7 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "@antler/api-handler",
   "version": "0.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "description": "API handler for Antler",
   "type": "module",
   "engines": {
     "node": ">= 16 < 21"
