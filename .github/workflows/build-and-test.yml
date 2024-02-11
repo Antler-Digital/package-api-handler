@@ -9,10 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: volta-cli/action@v1
-      - run: npm i -g yarn
-      - run: yarn install
-      - run: yarn lint
+      - run: npm install
+      - run: npm run lint
       # - run: npm test
-      - run: yarn build
+      - run: npm run build
         env:
           CI: true
